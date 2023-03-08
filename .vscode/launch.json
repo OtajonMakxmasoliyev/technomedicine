@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://yarn add @material-ui/core",
+            "request": "launch",
+            "url": "http://yarn add @material-ui/core"
+        }
+    ]
+}

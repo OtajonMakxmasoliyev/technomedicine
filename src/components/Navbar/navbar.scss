@@ -1,0 +1,112 @@
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    background-color: #3949AB;
+
+    .links {
+        width: 35%;
+        display: flex;
+        align-items: center;
+
+        .logo {
+            margin-right: 35px;
+
+            img {
+                width: 50px;
+
+
+            }
+        }
+
+        ul {
+            width: 60%;
+            display: flex;
+            gap: 30px;
+            list-style: none;
+
+            li {
+                a {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 24px;
+                    text-decoration: none;
+                    letter-spacing: 1.5px;
+                    /* identical to box height */
+
+
+                    /* Green Lite */
+
+                    color: #F4FFF3;
+                }
+            }
+        }
+
+    }
+
+    .doctor {
+        width: 35%;
+        height: 50px;
+        display: grid;
+        grid-template-areas:
+            "username userimage exit"
+            "specia userimage exit";
+        justify-content: end;
+        align-items: center;
+        gap: 20px;
+        grid-row-gap: 0px;
+
+        p {
+            margin: 0;
+            color: #F4FFF3;
+        }
+
+        .name {
+            grid-area: username;
+            height: 20px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 18px;
+            /* identical to box height */
+
+            text-align: right;
+        }
+
+        .specia {
+            grid-area: specia;
+            height: 20px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 18px;
+            /* identical to box height */
+
+            text-align: right;
+        }
+
+        .userimage {
+            grid-area: userimage;
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+            object-fit: cover;
+        }
+
+        button {
+            grid-area: exit;
+            border-radius: 50%;
+            height: 50px;
+            width: 50px;
+            border: none;
+            background-color: #f4fff34e;
+            color: #fff;
+        }
+    }
+}

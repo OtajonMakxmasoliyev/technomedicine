@@ -1,0 +1,162 @@
+{
+    "logins": [
+        {
+            "id": 1,
+            "username": "Abbos",
+            "password": "salom123",
+            "status": "true",
+            "holati": "false",
+            "firstName": "Abbos",
+            "lastName": "Makxmasoliyev",
+            "image": "abbos.jpg",
+            "specialist": "Cardiolog"
+        },
+        {
+            "id": 2,
+            "username": "dilorom",
+            "password": "dilorom123",
+            "status": "true",
+            "holati": "false",
+            "firstName": "Dilorom",
+            "lastName": "Egamnazarova",
+            "image": "dilorom.jpg",
+            "specialist": "Xamshira"
+        },
+        {
+            "id": 3,
+            "username": "diyor",
+            "password": "diyor123",
+            "status": "true",
+            "holati": "false",
+            "firstName": "Diyor",
+            "lastName": "O'tabekov",
+            "image": "diyor.jpg",
+            "specialist": "adminstrator"
+        }
+    ],
+    "person": [
+        {
+            "holati": "false",
+            "id": 1,
+            "firstName": "Abdusalom",
+            "lastName": "Abdusattorov",
+            "birthday": "12-01-2019"
+        },
+        {
+            "holati": "false",
+            "id": 2,
+            "firstName": "Abdusalom",
+            "lastName": "Abdusattorov",
+            "birthday": "12-01-2019"
+        },
+        {
+            "holati": "false",
+            "firstName": "Otajon",
+            "lastName": "Maxmasoliyev",
+            "birthday": "2014-05-14",
+            "id": 7
+        },
+        {
+            "holati": "false",
+            "firstName": "Otajon",
+            "lastName": "Maxmasoliyev",
+            "birthday": "2015-09-18",
+            "id": 8
+        },
+        {
+            "holati": "false",
+            "firstName": "AbduKarim",
+            "lastName": "Salimov",
+            "birthday": "2020-12-05",
+            "id": 9
+        },
+        {
+            "holati": "false",
+            "firstName": "Salim",
+            "lastName": "Ahmadov",
+            "birthday": "2019-12-05",
+            "id": 11
+        },
+        {
+            "holati": "false",
+            "firstName": "Akbarov",
+            "lastName": "Tuxtasin",
+            "birthday": "2022-12-05",
+            "id": 12
+        },
+        {
+            "holati": "false",
+            "firstName": "Rashid",
+            "lastName": "Alimov",
+            "birthday": "2020-12-04",
+            "id": 13
+        },
+        {
+            "holati": "false",
+            "firstName": "Rustam ",
+            "lastName": "Qorayev",
+            "birthday": "2015-12-04",
+            "id": 14
+        },
+        {
+            "holati": "false",
+            "firstName": "Feruz ",
+            "lastName": "Allayev",
+            "birthday": "2015-12-06",
+            "id": 15
+        },
+        {
+            "holati": "true",
+            "firstName": "Akbarov",
+            "lastName": "Tuxtasin",
+            "birthday": "2022-12-05",
+            "id": 16
+        },
+        {
+            "holati": "false",
+            "firstName": "Akbarov",
+            "lastName": "Tuxtasin",
+            "birthday": "2022-12-05",
+            "id": 17
+        },
+        {
+            "holati": "false",
+            "firstName": "Akbarov",
+            "lastName": "Tuxtasin",
+            "birthday": "2022-12-05",
+            "id": 18
+        },
+        {
+            "firstName": "Akbarshoh",
+            "lastName": "Jurayev",
+            "birthday": "2022-06-15",
+            "diseaseType": "qizamiq",
+            "holati": "true",
+            "id": 19
+        },
+        {
+            "firstName": "Salimov",
+            "lastName": "Muxsin",
+            "birthday": "2022-06-15",
+            "diseaseType": "qizamiq",
+            "holati": "true",
+            "id": 20
+        },
+        {
+            "firstName": "Abbos",
+            "lastName": "Karimberdiyev",
+            "birthday": "2022-02-15",
+            "diseaseType": "grip",
+            "holati": "false",
+            "id": 21
+        },
+        {
+            "firstName": "Aslam",
+            "lastName": "Shoxruxov",
+            "birthday": "2022-12-27",
+            "diseaseType": "grip",
+            "holati": "false",
+            "id": 22
+        }
+    ]
+}

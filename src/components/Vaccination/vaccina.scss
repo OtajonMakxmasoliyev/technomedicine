@@ -1,0 +1,109 @@
+.vaccina {
+    color: #fff;
+    width: 100%;
+    height: calc(100vh - 90px);
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 50px;
+    background-color: #000000;
+
+    p.title {
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 700;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid #ffffff80;
+        background-color: #3948abbb;
+        border-collapse: collapse;
+        border-radius: 10px;
+        color: #FFF;
+        border-radius: 15px;
+        overflow: hidden;
+        box-sizing: border-box;
+
+        thead {
+            height: 60px;
+            background-color: #3949AB;
+
+
+            border-spacing: 0;
+            color: #FFF;
+        }
+
+        tbody {
+
+
+            tr {
+                border-bottom: 2px solid #ffffff56;
+
+                &:nth-child(even) {
+                    background-color: #0e1c3d;
+                }
+
+                td {
+
+                    height: 30px;
+                    padding: 5px 15px;
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 14px;
+                    line-height: 20px;
+                    /* identical to box height, or 143% */
+
+                    text-align: center;
+
+                    color: #fff;
+
+
+
+                }
+
+                .options {
+                    width: 100px;
+
+                    .btns {
+                        width: 100%;
+                        display: flex;
+                        justify-content: center;
+                        gap: 10px;
+
+
+
+
+                    }
+                }
+            }
+
+
+        }
+    }
+
+    .after {
+        padding: 10px;
+        color: #2662F0;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background-color: #00000088;
+        position: relative;
+
+        &::after {
+            content: "";
+            width: 100%;
+            display: block;
+            height: 100%;
+            background-color: #0000002f;
+            position: absolute;
+            border-radius: 50%;
+        }
+
+    }
+}

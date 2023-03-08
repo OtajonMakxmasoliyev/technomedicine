@@ -1,0 +1,125 @@
+.form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #24292f;
+
+    &_block {
+        width: 1000px;
+        height: 70vh;
+        border-radius: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+        background-color: #1d1d24;
+
+        &_logo {
+            width: 50%;
+            height: 100%;
+            border: 1px solid blue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #3949AB;
+
+            img {
+                width: 367px;
+                height: 367px;
+            }
+        }
+
+        &_sign {
+            width: 50%;
+            height: 60%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            form {
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                p {
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 33px;
+                    /* identical to box height */
+                    letter-spacing: 2px;
+
+
+                    /* Text / jnt-primary-text-dark-color */
+
+                    color: #fff;
+                }
+
+                a {
+                    color: #15ccf1;
+                }
+
+                input {
+                    width: 358px;
+                    height: 40px;
+                    border-radius: 12px;
+                    border: none;
+                    padding: 0 15px;
+                    box-sizing: border-box;
+
+                    font-family: 'Open Sans';
+                    font-style: normal;
+                    font-weight: 600;
+                    color: #3949AB;
+                    /* identical to box height */
+
+                    &:focus {
+                        outline: none;
+                    }
+                }
+
+
+            }
+
+            button {
+
+                text-align: center;
+                padding: 10px 40px;
+                border-radius: 18px;
+                background-color: #3949AB;
+                color: #fff;
+                font-family: "Open Sans";
+                font-size: 18px;
+                border: none;
+            }
+
+            span {
+                margin: 18px 0;
+                display: flex;
+                align-items: center;
+                color: #fff;
+
+                &::before {
+                    content: "";
+                    width: 93px;
+                    border: 1px solid #424242;
+                    display: block;
+                    margin-right: 5px;
+                }
+
+                &::after {
+                    content: "";
+                    width: 93px;
+                    border: 1px solid #424242;
+                    display: block;
+                    margin-left: 5px;
+
+                }
+            }
+        }
+
+    }
+}
